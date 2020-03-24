@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(201, 76, 45);
 }
 
 .App-logo {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url(/src/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Titillium Web Bold';
+  src: url(/src/TitilliumWeb-Bold.ttf);
+}
+
+.irontitle {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 82px;
 }

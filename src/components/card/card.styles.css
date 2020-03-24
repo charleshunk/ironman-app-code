@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(/src/TitilliumWeb-Regular.ttf);
+  }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c8d8d8;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
